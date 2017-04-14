@@ -1,0 +1,24 @@
+{
+  "name": "genius",
+  "version": "1.0.0",
+  "description": "Node.js and MySQL app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothyuan/genius"
+  },
+  "author": "Xianfeng",
+  "license": "MIT",
+  "homepage": "https://github.com/timothyuan/genius",
+  "dependencies": {
+     "body-parser": "1.15.2",
+     "bootstrap": "^3.3.6",
+     "express": "^4.12.3",
+     "jade": "^1.11.0",
+	 "multer": "1.2.1",
+     "mysql": "^2.6.2"
+  }
+}
