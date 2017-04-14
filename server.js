@@ -22,7 +22,7 @@ var storage = multer.diskStorage({
 var upload = multer({storage: storage}).single('file');
 
 //Showing index.html file on our homepage
-app.get('/', function(resuest, response) {
+app.get('/', function(request, response) {
   response.sendFile('/index.html');
 });
 
