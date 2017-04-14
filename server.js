@@ -23,7 +23,7 @@ var upload = multer({storage: storage}).single('file');
 
 //Showing index.html file on our homepage
 app.get('/', function(resuest, response) {
-  response.sendFile('/example/index.html');
+  response.sendFile('/index.html');
 });
 
 //Posting the file upload
