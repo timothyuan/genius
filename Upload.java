@@ -6,7 +6,7 @@ public class Upload{
 	public static void main(String[] args) {
 	
 	try {
-	File file = new File("Downloads\image1.jpg");
+	File file = new File("Downloads\\image1.jpg");
 	RequestParams params = new RequestParams();
     params.put("file", file);
 	AsyncHttpClient client = new AsyncHttpClient();
