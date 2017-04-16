@@ -1,12 +1,13 @@
 import com.loopj.android.http.*;
 import java.io.*;
 import cz.msebera.android.httpclient.*;
+import java.lang.Object.*;
 
 public class Upload{
 	public static void main(String[] args) {
 	
 	try {
-	File file = new File("Downloads\\image1.jpg");
+	File file = new File("C:\\Users\\xiany\\Downloads\\image1.jpg");
 	RequestParams params = new RequestParams();
     params.put("file", file);
 	AsyncHttpClient client = new AsyncHttpClient();
