@@ -11,7 +11,7 @@ public class Upload{
 	RequestParams params = new RequestParams();
     params.put("file", file);
 	AsyncHttpClient client = new AsyncHttpClient();
-	client.post("/upload", params, new AsyncHttpResponseHandler() {
+	client.post("localhost:3000/upload", params, new AsyncHttpResponseHandler() {
 
 					@Override
                     public void onSuccess(int statusCode, Header[] headers, byte[] response) {
