@@ -1,5 +1,6 @@
 Upload.java requires android os, asynchttpclient, and special httpclient package (includes ResponseHandlerInterface) 
-create uploads folder in genius directory 
+
+make sure to create uploads folder in genius directory 
 
 How to debug:
 
